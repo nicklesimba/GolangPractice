@@ -4,6 +4,7 @@ package l33tc0d3
 // ...so ummm just do greedy algorithm for best result here.
 
 // Attempt 1 - brute force
+/*
 func wiggleMaxLength(nums []int) int {
 	if len(nums) == 0 {
 		return 0
@@ -41,6 +42,7 @@ func wiggleMaxLength(nums []int) int {
 	}
 	return longestSS
 }
+*/
 
 // Attempt 2 - greedy
 func wiggleMaxLength(nums []int) int {
